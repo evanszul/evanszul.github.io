@@ -9,18 +9,41 @@
     <managingEditor>evanszul@gmail.com (Evans Zulhendy)</managingEditor>
     <webMaster>evanszul@gmail.com (Evans Zulhendy)</webMaster>
     <copyright>(c) 2018 Evans Zulhendy.</copyright>
-    <lastBuildDate>Wed, 04 Apr 2018 22:09:10 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 23:12:26 +0700</lastBuildDate>
     
 	<atom:link href="https://evanszul.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title>Belajar Arduino</title>
+      <link>https://evanszul.github.io/2018/04/04/belajar-arduino/</link>
+      <pubDate>Wed, 04 Apr 2018 23:12:26 +0700</pubDate>
+      <author>evanszul@gmail.com (Evans Zulhendy)</author>
+      <guid>https://evanszul.github.io/2018/04/04/belajar-arduino/</guid>
+      <description>Berikut ini beberapa tutorial mengenai arduino:
+ Menyalakan 1 lampu LED dengan arduino
+ Membuat lampu lalulintas sederhana dengan arduino uno
+  </description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://evanszul.github.io/license/</link>
+      <pubDate>Wed, 04 Apr 2018 23:01:43 +0700</pubDate>
+      <author>evanszul@gmail.com (Evans Zulhendy)</author>
+      <guid>https://evanszul.github.io/license/</guid>
+      <description>Blog ini dibangun menggunkan Hugo. Apakah anda tertarik menggunakan hugo? Klik disini.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
       <link>https://evanszul.github.io/about/</link>
       <pubDate>Wed, 04 Apr 2018 22:09:10 +0700</pubDate>
       <author>evanszul@gmail.com (Evans Zulhendy)</author>
       <guid>https://evanszul.github.io/about/</guid>
-      <description>Perkenalkan nama saya Evans Zulhendy. Saya Alumni Universitas Putera Batam. Saat ini saya masih menjadi freelance. Jika anda membutuhkan bantuan saya, dapat menghubungi email saya di evanszul@gmail.com</description>
+      <description>Perkenalkan nama saya Evans Zulhendy. Saya alumni Universitas Putera Batam. Saat ini saya masih menjadi freelance. Jika anda membutuhkan bantuan saya, dapat menghubungi email saya di evanszul@gmail.com .
+Terima Kasih
+Evans Zulhendy</description>
     </item>
     
     <item>
@@ -29,7 +52,14 @@
       <pubDate>Wed, 04 Apr 2018 21:52:07 +0700</pubDate>
       <author>evanszul@gmail.com (Evans Zulhendy)</author>
       <guid>https://evanszul.github.io/2018/04/04/belajar-android-studio/</guid>
-      <description>Perkenalkan nama saya Evans Zulhendy. Kali ini saya akan membagikan tutorial tutorial seputar android selama yang saya pelajari di internet.</description>
+      <description>Berikut ini adalah beberapa tutorial Android Studio:
+ Membuat aplikasi kalkulator sederhana.
+ Membuat Input dan menampilkannya dengan Toast.
+ Membuat CardView dan RecyclerView.
+ Membuat ListView.
+ Menerapkan Volley Untuk mengambil beberapa data.
+  Beberapa contoh aplikasi android:
+ Aplikasi Kalkulator Android.  </description>
     </item>
     
   </channel>
