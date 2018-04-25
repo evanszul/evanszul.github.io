@@ -9,9 +9,28 @@
     <managingEditor>evanszul@gmail.com (Evans Zulhendy)</managingEditor>
     <webMaster>evanszul@gmail.com (Evans Zulhendy)</webMaster>
     <copyright>(c) 2018 Evans Zulhendy.</copyright>
+    <lastBuildDate>Wed, 25 Apr 2018 23:20:50 +0700</lastBuildDate>
     
 	<atom:link href="https://evanszul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bootsrap</title>
+      <link>https://evanszul.github.io/tags/bootsrap/</link>
+      <pubDate>Wed, 25 Apr 2018 23:20:50 +0700</pubDate>
+      <author>evanszul@gmail.com (Evans Zulhendy)</author>
+      <guid>https://evanszul.github.io/tags/bootsrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://evanszul.github.io/tags/html/</link>
+      <pubDate>Wed, 25 Apr 2018 23:20:50 +0700</pubDate>
+      <author>evanszul@gmail.com (Evans Zulhendy)</author>
+      <guid>https://evanszul.github.io/tags/html/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

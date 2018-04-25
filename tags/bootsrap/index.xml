@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evan&#39;s Blog</title>
-    <link>https://evanszul.github.io/</link>
-    <description>Recent content on Evan&#39;s Blog</description>
+    <title>Bootsrap on Evan&#39;s Blog</title>
+    <link>https://evanszul.github.io/tags/bootsrap/</link>
+    <description>Recent content in Bootsrap on Evan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>evanszul@gmail.com (Evans Zulhendy)</managingEditor>
@@ -11,7 +11,7 @@
     <copyright>(c) 2018 Evans Zulhendy.</copyright>
     <lastBuildDate>Wed, 25 Apr 2018 23:20:50 +0700</lastBuildDate>
     
-	<atom:link href="https://evanszul.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evanszul.github.io/tags/bootsrap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,25 +21,6 @@
       <author>evanszul@gmail.com (Evans Zulhendy)</author>
       <guid>https://evanszul.github.io/2018/04/25/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</guid>
       <description>Jika teman-teman selesai membuat halaman html pada komputer menggunakan bootsrap, setelah di coba di smartphone tampilannya menjadi berantakan di pc. Teman-teman dapat menggunakan kode dibawah ini untuk merapikannya. Letakkan kode dibawah ini didalam  pada halaman html. 1  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1&amp;#34;&amp;gt;   Nah, jika sudah memasukkan kode diatas kedalam  maka tampilan html yang kamu buat menjadi tidak berantakan.</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>https://evanszul.github.io/license/</link>
-      <pubDate>Wed, 04 Apr 2018 23:01:43 +0700</pubDate>
-      <author>evanszul@gmail.com (Evans Zulhendy)</author>
-      <guid>https://evanszul.github.io/license/</guid>
-      <description>Blog ini dibangun menggunkan Hugo. Apakah anda tertarik menggunakan hugo? Klik disini.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://evanszul.github.io/about/</link>
-      <pubDate>Wed, 04 Apr 2018 22:09:10 +0700</pubDate>
-      <author>evanszul@gmail.com (Evans Zulhendy)</author>
-      <guid>https://evanszul.github.io/about/</guid>
-      <description>if you want to send information for me, this is my email: evanszul@gmail.com .
-Thanks.</description>
     </item>
     
   </channel>

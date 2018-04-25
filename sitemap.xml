@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://evanszul.github.io/2018/04/25/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</loc>
+    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://evanszul.github.io/license/</loc>
     <lastmod>2018-04-04T23:01:43+07:00</lastmod>
   </url>
@@ -13,13 +18,32 @@
   </url>
   
   <url>
+    <loc>https://evanszul.github.io/tags/bootsrap/</loc>
+    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://evanszul.github.io/</loc>
-    <lastmod>2018-04-04T23:01:43+07:00</lastmod>
+    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanszul.github.io/tags/html/</loc>
+    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evanszul.github.io/post/</loc>
+    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://evanszul.github.io/tags/</loc>
+    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
     <priority>0</priority>
   </url>
   
