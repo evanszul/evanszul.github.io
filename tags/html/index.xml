@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Blog Evans</title>
-    <link>http://localhost:1313/tags/html/</link>
+    <link>http://evanszul.ga/tags/html/</link>
     <description>Recent content in Html on Blog Evans</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 25 Apr 2018 23:47:03 +0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://evanszul.ga/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cara Mengatasi Error Console Firefox the Character Encoding of the Html Document...</title>
-      <link>http://localhost:1313/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</link>
+      <link>http://evanszul.ga/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</link>
       <pubDate>Wed, 25 Apr 2018 23:47:03 +0700</pubDate>
       
-      <guid>http://localhost:1313/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</guid>
+      <guid>http://evanszul.ga/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</guid>
       <description>Pernah mengalami error pada halaman html yang sudah diberi beberapa sintaks dan menemukan error seperti dibawah ini? The character encoding of the HTML document was not declared. The document will render with garbled text in some browser configurations if the document contains characters from outside the US-ASCII range. The character encoding of the page must be declared in the document or in the transfer protocol.
 Cara memperbaiki ini gampang banget, kamu cukup memasang kode dibawah ini didalam head.</description>
     </item>
     
     <item>
       <title>Membuat Supaya Tampilan Bootstrap Yang Rapi Disemua Perangkat</title>
-      <link>http://localhost:1313/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</link>
+      <link>http://evanszul.ga/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</link>
       <pubDate>Wed, 25 Apr 2018 23:20:50 +0700</pubDate>
       
-      <guid>http://localhost:1313/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</guid>
+      <guid>http://evanszul.ga/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</guid>
       <description>Jika teman-teman selesai membuat halaman html pada komputer menggunakan bootsrap, setelah di coba di smartphone tampilannya menjadi berantakan di pc. Teman-teman dapat menggunakan kode dibawah ini untuk merapikannya. Letakkan kode dibawah ini didalam  pada halaman html. 1  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1&amp;#34;&amp;gt;   Nah, jika sudah memasukkan kode diatas kedalam  maka tampilan html yang kamu buat menjadi tidak berantakan.</description>
     </item>
     

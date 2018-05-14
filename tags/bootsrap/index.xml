@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bootsrap on Blog Evans</title>
-    <link>http://localhost:1313/tags/bootsrap/</link>
+    <link>http://evanszul.ga/tags/bootsrap/</link>
     <description>Recent content in Bootsrap on Blog Evans</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 25 Apr 2018 23:20:50 +0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/bootsrap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://evanszul.ga/tags/bootsrap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Membuat Supaya Tampilan Bootstrap Yang Rapi Disemua Perangkat</title>
-      <link>http://localhost:1313/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</link>
+      <link>http://evanszul.ga/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</link>
       <pubDate>Wed, 25 Apr 2018 23:20:50 +0700</pubDate>
       
-      <guid>http://localhost:1313/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</guid>
+      <guid>http://evanszul.ga/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/</guid>
       <description>Jika teman-teman selesai membuat halaman html pada komputer menggunakan bootsrap, setelah di coba di smartphone tampilannya menjadi berantakan di pc. Teman-teman dapat menggunakan kode dibawah ini untuk merapikannya. Letakkan kode dibawah ini didalam  pada halaman html. 1  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1&amp;#34;&amp;gt;   Nah, jika sudah memasukkan kode diatas kedalam  maka tampilan html yang kamu buat menjadi tidak berantakan.</description>
     </item>
     
