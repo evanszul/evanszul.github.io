@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat Aplikasi Web Sistem Pakar Part 1</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<meta itemprop="name" content="Membuat Aplikasi Web Sistem Pakar Part 1">
+<meta itemprop="description" content="Pada tutorial kali ini kita hanya akan belajar tentang bagaimana caranya membuat kerangka atau tampilan dari semua yang dibutuhkan dalam sistem pakar. Kita akan menggunakan material-kit yang sudah mendukung bootstrap. Sehingga tampilan dari sistem pakar ini akan menjadi menarik dan responsive. Bahan Bahan yang dibutuhkan
+ Xampp Sublime Material-Kit (css)   Tahap-Tahap 1. Pengenalan Bootstrap 
+2. Mengenal Baris dan Kolom pada Bootstrap 
+3. Membuat halaman awal">
+
+
+<meta itemprop="datePublished" content="2018-05-28T11:56:32&#43;07:00" />
+<meta itemprop="dateModified" content="2018-05-28T11:56:32&#43;07:00" />
+<meta itemprop="wordCount" content="177">
+
+
+
+<meta itemprop="keywords" content="html,bootstrap,css," />
+
+
+<meta property="og:title" content="Membuat Aplikasi Web Sistem Pakar Part 1" />
+<meta property="og:description" content="Pada tutorial kali ini kita hanya akan belajar tentang bagaimana caranya membuat kerangka atau tampilan dari semua yang dibutuhkan dalam sistem pakar. Kita akan menggunakan material-kit yang sudah mendukung bootstrap. Sehingga tampilan dari sistem pakar ini akan menjadi menarik dan responsive. Bahan Bahan yang dibutuhkan
+ Xampp Sublime Material-Kit (css)   Tahap-Tahap 1. Pengenalan Bootstrap 
+2. Mengenal Baris dan Kolom pada Bootstrap 
+3. Membuat halaman awal" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://evanszul.ga/post/membuat-aplikasi-web-sistem-pakar-part-1/" />
+
+
+
+<meta property="article:published_time" content="2018-05-28T11:56:32&#43;07:00"/>
+
+<meta property="article:modified_time" content="2018-05-28T11:56:32&#43;07:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Membuat Aplikasi Web Sistem Pakar Part 1"/>
+<meta name="twitter:description" content="Pada tutorial kali ini kita hanya akan belajar tentang bagaimana caranya membuat kerangka atau tampilan dari semua yang dibutuhkan dalam sistem pakar. Kita akan menggunakan material-kit yang sudah mendukung bootstrap. Sehingga tampilan dari sistem pakar ini akan menjadi menarik dan responsive. Bahan Bahan yang dibutuhkan
+ Xampp Sublime Material-Kit (css)   Tahap-Tahap 1. Pengenalan Bootstrap 
+2. Mengenal Baris dan Kolom pada Bootstrap 
+3. Membuat halaman awal"/>
+
+
+
+
+<link rel="icon" href="/img/logo.svg" />
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+
+<link rel="stylesheet" href="/css/material-kit.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<script type="text/javascript" src="/js/material-kit.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-80517197-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+    </head>
+    <body>
+
+        <div class="container mt-4">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">    
+    <a class="navbar-brand" href="http://evanszul.ga/"><img src="/img/logo.svg" width="30" height="30" class="d-inline-block align-top rounded-circle" alt=""> Blog Evans</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://evanszul.ga/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://evanszul.ga/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://evanszul.ga/contact">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="https://www.google.co.id" id="cse-search-box">
+                <input type="hidden" name="cx" value="partner-pub-6279325630224392:9670052267" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="hidden" name="sa" value="search" />
+                <input class="form-control mr-sm-2" type="text" name="q" placeholder="Kata Kunci" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Cari</button>
+            </form>
+        </div>
+        
+</div>
+</nav>
+</div>
+
+        
+
+        <div class="container mb-4">
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-8">
+                    <article>
+                        <div class="card">
+                            <img class='card-img-top img-fluid' 
+                            src='/img/membuat-aplikasi-web-sistem-pakar-part-1/sistem_pakar.png'
+                            alt='Membuat Aplikasi Web Sistem Pakar Part 1'>
+                           <div class="card-body p-md-5">
+                           
+                               <div class="post-header mb-5">
+                                    <div class="mb-3">
+                                        <img src="https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-1/p160x160/26196000_1643381785705384_1669913002025064128_n.jpg?_nc_cat=0&amp;_nc_eui2=AeFQMQh3Ckcas7boJ_9CoBcNq7_KDWNISZ-lezBwrC8gRdGnlM1ywQmpmS1DnNdeSeecx1Kq0iQPe-nYjPF7e_fZFP1W-5D5fjAFShJYtWem8A&amp;oh=a097b07fbbbb8871d5b884073af89e0e&amp;oe=5B85AEBD" class="rounded-circle" width="32" height="32" />
+                                        <a href="https://evanszul.ga">Evans Zulhendy</a> | <time>28-05-2018</time>
+                                    </div>
+
+                                    <h2 class="card-title mb-3">Membuat Aplikasi Web Sistem Pakar Part 1</h2>
+                                    
+                                    <div>
+                                        
+                                        <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/html">html</a>
+                                        </span> 
+                                        
+                                        <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/bootstrap">bootstrap</a>
+                                        </span> 
+                                        
+                                        <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/css">css</a>
+                                        </span> 
+                                        
+                                    </div>
+
+                                </div>
+                                <div class="post-content">
+                                    <p>Pada tutorial kali ini kita hanya akan belajar tentang bagaimana caranya membuat kerangka atau tampilan dari semua yang dibutuhkan dalam sistem pakar. Kita akan menggunakan material-kit yang sudah mendukung bootstrap. Sehingga tampilan dari sistem pakar ini akan menjadi menarik dan responsive.
+<h3>Bahan Bahan yang dibutuhkan</h3></p>
+
+<ul>
+<li>Xampp</li>
+<li>Sublime</li>
+<li><a href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html" target="new-tab">Material-Kit (css)</a></li>
+</ul>
+
+<p><h3> Tahap-Tahap</h3>
+<h4>1. Pengenalan Bootstrap</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/4ZeWSpNNuMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>2. Mengenal Baris dan Kolom pada Bootstrap</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/XUwO_jSuwnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>3. Membuat halaman awal</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/lt3HyeAM8jw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>4. Membuat halaman tampilan mulai diagnosis</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/sbrYr2u5YqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>5. Membuat halaman tampilan diagnosis</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/cJZD890vGiA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>6. Membuat halaman hasil diagnosis</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/qaZSrqA2Wrw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>7. Membuat halaman tentang kami</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/09SlHtgeKRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>8. Membuat halaman login admin</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/9HC8Dtw1Tqc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>9. Membuat halaman awal admin (beranda_admin.php)</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/OKbK-c6qIU4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>10. Membuat halaman daftar aturan daftar aturan admin php </h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/_K8ZZSOCDT8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>11. Membuat halaman tambah aturan</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Bg6t-gZhtFE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>12. Membuat halaman ubah aturan</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Hdm98TpjSnI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>13. Membuat halaman daftar penyebab daftar penyebab admin php</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZQJUYbEOeQc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>14. Membuat halaman tambah penyebab </h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/UijgOlncQKQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>15. Membuat halaman ubah penyebab</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/xcXP00bbgZw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>16. Membuat halaman daftar solusi (daftar_solusi_admin.php)</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/milBiU7XEgk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>17. Membuat halaman tambah solusi </h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/TY3v-vFx2T8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>18. Membuat halaman ubah solusi </h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ldWujefC6qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p><h4>19. Membuat halaman daftar hasil diagnosis (daftar_hasil_diagnosis_admin.php) </h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/grTnyPbjhKE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Download Latihan Video 19: <a href="https://drive.google.com/open?id=1UVVVcQHcbBa2NU28PLnWRoEvQlvOpNs2" target="blank">sistempakar-part1-vid19.zip</a></p>
+
+<p><h4>20. Memecah setiap halaman-halaman yang ada di user dan admin (Final Part 1) - OnProgress</h1></p>
+
+                                </div>
+                                <div class="post-content">
+                                        <div class="card bg-info">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        <a href="#evans">Berbagikan apa yang kamu baca. Karena berbagi itu sungguh indah.</a>
+                                                    </h4>
+                                                    <h5 class="card-category card-category-social">
+                                                            <a class="btn btn-primary" href="#"><i class="fa fa-facebook"></i>Facebook</a> <a class="btn btn-primary" href="#"><i class="fa fa-twitter"></i>Twitter</a> <a class="btn btn-primary" href="#"><i class="fa fa-google"></i>Google Plus</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                </div>
+                                <div class="post-footer">
+                                    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'evanszul-1';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                       <aside>
+    <div class="info">
+    <div class="icon icon-primary">
+            <i class="material-icons">chat</i>
+            <h4 class="info-title text-primary">New Post</h4>
+    </div>
+    
+    
+        <div class="card">
+            <div class="card-body ">
+                <h6 class="card-category text-danger">
+                    <i class="material-icons">trending_up</i> 28 May, 2018
+                </h6>
+                <h4 class="card-title">
+                    <a href="/post/membuat-aplikasi-web-sistem-pakar-part-1/">Membuat Aplikasi Web Sistem Pakar Part 1</a>
+                </h4>
+
+            </div>
+            <div class="card-footer ">
+                    <div class="author">
+                        <a href="#evanszul">
+                            <img src="https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-1/p160x160/26196000_1643381785705384_1669913002025064128_n.jpg?_nc_cat=0&amp;_nc_eui2=AeFQMQh3Ckcas7boJ_9CoBcNq7_KDWNISZ-lezBwrC8gRdGnlM1ywQmpmS1DnNdeSeecx1Kq0iQPe-nYjPF7e_fZFP1W-5D5fjAFShJYtWem8A&amp;oh=a097b07fbbbb8871d5b884073af89e0e&amp;oe=5B85AEBD" alt="..." class="avatar img-raised">
+                            <span>Evans Zulhendy</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+     
+     
+    
+        <div class="card">
+            <div class="card-body ">
+                <h6 class="card-category text-danger">
+                    <i class="material-icons">trending_up</i> 25 Apr, 2018
+                </h6>
+                <h4 class="card-title">
+                    <a href="/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/">Cara Mengatasi Error Console Firefox the Character Encoding of the Html Document...</a>
+                </h4>
+
+            </div>
+            <div class="card-footer ">
+                    <div class="author">
+                        <a href="#evanszul">
+                            <img src="https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-1/p160x160/26196000_1643381785705384_1669913002025064128_n.jpg?_nc_cat=0&amp;_nc_eui2=AeFQMQh3Ckcas7boJ_9CoBcNq7_KDWNISZ-lezBwrC8gRdGnlM1ywQmpmS1DnNdeSeecx1Kq0iQPe-nYjPF7e_fZFP1W-5D5fjAFShJYtWem8A&amp;oh=a097b07fbbbb8871d5b884073af89e0e&amp;oe=5B85AEBD" alt="..." class="avatar img-raised">
+                            <span>Evans Zulhendy</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+     
+     
+    
+        <div class="card">
+            <div class="card-body ">
+                <h6 class="card-category text-danger">
+                    <i class="material-icons">trending_up</i> 25 Apr, 2018
+                </h6>
+                <h4 class="card-title">
+                    <a href="/post/membuat-supaya-tampilan-bootstrap-yang-rapi-disemua-perangkat/">Membuat Supaya Tampilan Bootstrap Yang Rapi Disemua Perangkat</a>
+                </h4>
+
+            </div>
+            <div class="card-footer ">
+                    <div class="author">
+                        <a href="#evanszul">
+                            <img src="https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-1/p160x160/26196000_1643381785705384_1669913002025064128_n.jpg?_nc_cat=0&amp;_nc_eui2=AeFQMQh3Ckcas7boJ_9CoBcNq7_KDWNISZ-lezBwrC8gRdGnlM1ywQmpmS1DnNdeSeecx1Kq0iQPe-nYjPF7e_fZFP1W-5D5fjAFShJYtWem8A&amp;oh=a097b07fbbbb8871d5b884073af89e0e&amp;oe=5B85AEBD" alt="..." class="avatar img-raised">
+                            <span>Evans Zulhendy</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+     
+     
+    
+     
+    
+     
+    </div>
+
+</aside>
+
+                    </div>
+            </div>
+        </div>
+
+        <footer class="border border-bottom-0 border-left-0 border-right-0">
+    <div class="container pt-3 pb-3 pt-md-5 pb-md-5">
+        <div class="row">
+            <div class="col">
+
+                &copy; 2018 <a href="http://evanszul.ga/">Blog Evans</a> | Template by <a href="https://www.creative-tim.com/product/material-kit" target="blank">Material Kit</a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+<script type="text/javascript" src="/js/material-kit.js"></script>
+    </body>
+</html>
