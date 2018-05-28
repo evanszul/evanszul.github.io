@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog Evans</title>
-    <link>http://evanzul.ga/categories/</link>
+    <link>http://evanszul.ga/categories/</link>
     <description>Recent content in Categories on Blog Evans</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://evanzul.ga/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://evanszul.ga/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Html</title>
-      <link>http://evanzul.ga/categories/html/</link>
+      <link>http://evanszul.ga/categories/html/</link>
       <pubDate>Wed, 25 Apr 2018 23:47:03 +0700</pubDate>
       
-      <guid>http://evanzul.ga/categories/html/</guid>
+      <guid>http://evanszul.ga/categories/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://evanzul.ga/categories/web/</link>
+      <link>http://evanszul.ga/categories/web/</link>
       <pubDate>Wed, 25 Apr 2018 23:20:50 +0700</pubDate>
       
-      <guid>http://evanzul.ga/categories/web/</guid>
+      <guid>http://evanszul.ga/categories/web/</guid>
       <description></description>
     </item>
     
