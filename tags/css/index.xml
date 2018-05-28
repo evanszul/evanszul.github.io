@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Blog Evans</title>
+    <link>http://evanszul.ga/tags/css/</link>
+    <description>Recent content in Css on Blog Evans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 25 Apr 2018 23:47:03 +0700</lastBuildDate>
+    
+	<atom:link href="http://evanszul.ga/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara Mengatasi Error Console Firefox the Character Encoding of the Html Document...</title>
+      <link>http://evanszul.ga/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</link>
+      <pubDate>Wed, 25 Apr 2018 23:47:03 +0700</pubDate>
+      
+      <guid>http://evanszul.ga/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</guid>
+      <description>Pernah mengalami error pada halaman html yang sudah diberi beberapa sintaks dan menemukan error seperti dibawah ini? 1  The character encoding of the HTML document was not declared. The document will render with garbled text in some browser configurations if the document contains characters from outside the US-ASCII range. The character encoding of the page must be declared in the document or in the transfer protocol.  
+Cara memperbaiki ini gampang banget, kamu cukup memasang kode dibawah ini didalam head.</description>
+    </item>
+    
+  </channel>
+</rss>

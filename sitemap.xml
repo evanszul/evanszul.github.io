@@ -29,13 +29,19 @@
   </url>
   
   <url>
-    <loc>http://evanszul.ga/tags/bootsrap/</loc>
-    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
+    <loc>http://evanszul.ga/tags/bootstrap/</loc>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://evanszul.ga/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://evanszul.ga/tags/css/</loc>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +65,7 @@
   
   <url>
     <loc>http://evanszul.ga/tags/</loc>
-    <lastmod>2018-04-25T23:20:50+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
