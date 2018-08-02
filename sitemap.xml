@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://evanszul.ga/post/membuat-aplikasi-web-sistem-pakar-part-1/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://evanszul.ga/post/cara-mengatasi-error-console-firefox-the-character-encoding-of-the-html-document/</loc>
     <lastmod>2018-04-25T23:47:03+07:00</lastmod>
   </url>
@@ -29,13 +24,13 @@
   
   <url>
     <loc>http://evanszul.ga/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://evanszul.ga/tags/bootstrap/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,13 +41,13 @@
   
   <url>
     <loc>http://evanszul.ga/tags/css/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://evanszul.ga/tags/html/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,19 +59,13 @@
   
   <url>
     <loc>http://evanszul.ga/post/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://evanszul.ga/tags/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://evanszul.ga/categories/tutorial/</loc>
-    <lastmod>2018-05-28T11:56:32+07:00</lastmod>
+    <lastmod>2018-04-25T23:47:03+07:00</lastmod>
     <priority>0</priority>
   </url>
   

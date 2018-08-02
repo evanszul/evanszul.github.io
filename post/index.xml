@@ -5,22 +5,10 @@
     <link>http://evanszul.ga/post/</link>
     <description>Recent content in Posts on Blog Evans</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 May 2018 11:56:32 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 25 Apr 2018 23:47:03 +0700</lastBuildDate>
     
 	<atom:link href="http://evanszul.ga/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Membuat Aplikasi Web Sistem Pakar Part 1</title>
-      <link>http://evanszul.ga/post/membuat-aplikasi-web-sistem-pakar-part-1/</link>
-      <pubDate>Mon, 28 May 2018 11:56:32 +0700</pubDate>
-      
-      <guid>http://evanszul.ga/post/membuat-aplikasi-web-sistem-pakar-part-1/</guid>
-      <description>Pada tutorial kali ini kita hanya akan belajar tentang bagaimana caranya membuat kerangka atau tampilan dari semua yang dibutuhkan dalam sistem pakar. Kita akan menggunakan material-kit yang sudah mendukung bootstrap. Sehingga tampilan dari sistem pakar ini akan menjadi menarik dan responsive. Bahan Bahan yang dibutuhkan
- Xampp Sublime Material-Kit (css)   Tahap-Tahap 1. Pengenalan Bootstrap 
-2. Mengenal Baris dan Kolom pada Bootstrap 
-3. Membuat halaman awal</description>
-    </item>
     
     <item>
       <title>Cara Mengatasi Error Console Firefox the Character Encoding of the Html Document...</title>
